@@ -10,3 +10,5 @@ go:
 
 before_script:
   - mysql -e 'create database gotest;'
+  
+build_image: drydock/u12golpls:tip
